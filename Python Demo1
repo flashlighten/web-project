@@ -1,0 +1,16 @@
+通过一个简单的演示程序，来展示Python语言程序的代码风格
+实现阶乘计算 ，例如5!=5*4*3*2*1
+
+'''
+author********
+用递归算法实现阶乘计算
+'''
+def getFactorial(number):
+  if number==0:
+    return 1
+  else:
+    return number*getFactorial(number-1)
+    
+user_input_integer = input("请输入一个非零整数，从而得到它的阶乘：")
+user_input_integer_fact = getFactorial(user_input_integer)
+print(user_input_integer_fact)
