@@ -1,1 +1,14 @@
-
+Python
+1.print()
+Python演示程序中最常用到的一个内置函数/关键字
+2.input
+通过此关键字可以直接调用弹出输入框
+3.def
+函数定义的关键字
+4.if : else:
+5.for
+6.while
+7.return
+8.range()
+9.i
+Python演示程序中可以不通过定义即可使用的一个变量，通常用来表示整数变量
